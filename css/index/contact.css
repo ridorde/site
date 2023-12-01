@@ -1,0 +1,51 @@
+#Contact {
+    background-color: #1C2942;
+    height: 350px;
+
+    color: #5FC2BA;
+
+}
+
+#Contact > h2 {
+    margin-right: 40%;
+    margin-left: 41%;
+    margin-top: -2%;
+    margin-bottom: 0%;
+
+    font-size: 50px;
+    text-align: center;
+}
+
+#Contact a {
+    text-decoration: none;
+}
+
+#Contact p{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+#Contact a:visited {
+    color: #5FC2BA;
+}
+
+#Contact img {
+    width: 54px;
+    height: 54px;
+}
+
+#Contact table {
+    margin-left: 38%;
+    margin-top: 2%;
+    border: 1px solid green;
+}
+
+#Contact table tr td{
+    border: 1px solid white;
+}
+
+#Contact table tr td:nth-child(even) {
+    width : 320px;
+}

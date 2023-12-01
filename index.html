@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ma page web</title>
+  <link rel="stylesheet" href="./css/index/base.css">
+  <link rel="stylesheet" href="./css/index/header.css">
+  <link rel="stylesheet" href="./css/index/nav.css">
+  <link rel="stylesheet" href="./css/index/aboutMe.css">
+  <link rel="stylesheet" href="./css/index/contact.css">
+  <link rel="stylesheet" href="./css/index/mySkills.css">
+  <link rel="stylesheet" href="./css/index/resume.css">
+  <link rel="stylesheet" href="./css/index/footer.css">
+</head>
+
+<body>
+
+  <header>
+    <img src="./res/Photo/Photo.jpg" alt="Photo">
+    <h1>Ma page web</h1>
+  </header>
+
+  <nav> 
+    <a href="index.html"> <img src="./res/Base/Logo.jpg" alt="Logo"> </a>
+    <a href="#aboutMe">À propos de moi</a>
+    <a href="#mySkills">Mes compétences</a>
+    <a href="#Resume">Mon CV</a>
+    <a href="#Contact">Contact</a>
+  </nav>
+
+  <section id="aboutMe">
+    <p class="space"></p>
+    <h2>À propos de moi</h2>
+    <p> Je suis Axel Saint-maxin, étudiant en 2ème année de BUT informatique à Villeneuve-d'Ascq. 
+        Je cherche actuellement un stage orienté développement d'applications du 15 avril au 21 juin 2024, 
+        pour pouvoir développer mes compétences dans ce domaine et un jour cela me permettra 
+        d'étudier et de travailler dans le développement de jeux vidéo. 
+        Pour cette simple raison, j'aimerais que vous me contactiez si vous êtes intérreser par un stagiaire
+        pour quelqu'onque projet que ce soit. </p>
+    
+  </section>
+
+  <section id="mySkills">
+    <p class="space"></p>
+    <h2>Mes compétences</h2>
+    <img src="./res/Competences/Java.webp" alt="Java">
+    <img src="./res/Competences/SQL.png" alt="SQL">
+    <img src="./res/Competences/HTML.png" alt="HTML">
+    <img src="./res/Competences/CSS.png" alt="CSS">
+    <img src="./res/Competences/C.png" alt="C">
+    <img src="./res/Competences/Python.png" alt="Python">
+  </section>
+
+  <section id="Resume">
+    <p class="space"></p>
+    <h2>Lien vers mon CV</h2>
+    <p>Voici une partie convernant mon CV</p>
+    <p>Trois options s'offre à vous</p>
+    <ul>
+      <li> <a href="./res/CV/CV_Axel_Saint_maxin_Octobre_2023.pdf" target="_blank"> <p> Visualisé mon cv grâce au navigateur dans un nouvelle onglet </p> </a> </li>
+      <li> <a href="./html/CV.html"> <p> Visualisé mon cv grâce à mon site html </p> </a> </li>
+      <li> <a href="./res/CV/CV_Axel_Saint_maxin_Octobre_2023.pdf" download="CV_Axel_Saint_maxin_Octobre_2023.pdf" target="_blank"> <p> Télécharger mon cv directement </p> </a> </li>
+    </ul>
+    <p id="smallMessage">Certain navigateur visualise les pdf de force par défaut rendant l'option "Télécharger mon cv directement" obselète</p>
+  </section>
+
+  <section id="Contact">
+    <p class="space"></p>
+    <h2>Contact</h2>
+    <table> 
+      <tr>
+        <td>
+          <a href="https://github.com/ridorde/Professional" target="_blank">
+            <img src="./res/Contact/GitHub.png" id="Github" alt="Github">
+          </a>
+        </td>
+        <td>
+          <a href="https://github.com/ridorde/Professional" target="_blank">
+            <p id="text"> Mon lien github </p>
+          </a>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <a href="https://www.linkedin.com/in/axel-saint-maxin-260582292/" target="_blank">
+            <img src="./res/Contact/Linkedin.png" id="Github" alt="Github">
+          </a>
+        </td>
+        <td>
+          <a href="https://www.linkedin.com/in/axel-saint-maxin-260582292/" target="_blank">
+            <p id="text"> Mon lien Linkedin </p>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="./res/Contact/Email.png" id="Github" alt="Github">
+        </td>
+        <td>
+          <p id="text"> axel.saintmaxin.etu@univ-lille.fr </p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    <p>Copyright © 2023, Axel Saint-maxin</p>
+  </footer>
+
+</body>
+
+</html>

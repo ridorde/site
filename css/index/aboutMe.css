@@ -1,0 +1,21 @@
+#aboutMe {
+    background-color: #36494E;
+    height: 600px;
+
+    color : #7EA0B7;
+    text-align: justify;
+}
+
+#aboutMe > *{
+    margin : 1% 20% 1% 20%;
+}
+
+#aboutMe > h2 {
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+#aboutMe > p {
+    font-size: 24px;
+    line-height: 50px;
+}

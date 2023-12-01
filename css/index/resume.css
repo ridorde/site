@@ -1,0 +1,45 @@
+#Resume {
+    background-color: #BED3C3;
+    height: 700px;
+}
+
+#Resume {
+    background-color: #36494E;
+    height: 450px;
+
+    color : #7EA0B7;
+    text-align: justify;
+}
+
+#Resume > *{
+    margin : 0% 20% 0% 20%;
+}
+
+#Resume > h2 {
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 3%;
+    font-size: 48px;
+}
+
+#Resume > p {
+    margin-bottom: 1%;
+    font-size: 24px;
+}
+
+#Resume a {
+    text-decoration: none;
+    color: #7EA0B7;
+}
+
+#Resume > ul > li {
+    margin-bottom: 1%;
+}
+
+#Resume > ul {
+    margin-bottom: 2%;
+}
+
+#Resume #smallMessage {
+    font-size: 16px;
+}

@@ -1,0 +1,42 @@
+body > header {
+    margin: 1% 1% 0.5% 1%;
+    display: flex;
+    align-items: center;
+    background-color: #1C2942;
+    color: #5FC2BA;
+    border-radius: 25px;
+}
+
+body > header > *{
+    margin : 0;
+}
+
+body > header > img {
+    width: 128px;
+    height: 128px;
+    border-radius: 25px;
+    margin : 16px 30px 16px 30px;
+}
+
+body > header > h1{
+    width: auto;
+    text-align: justify;
+
+    font-size: 32px;
+    margin : 5px 5px 5px 31%;
+    height: 50px;
+    color: #5FC2BA;
+
+    transition:
+        font-size 1s,
+        margin 1s,
+        height 1s,
+        color 1s;
+}
+
+body > header > h1:hover{
+    font-size: 64px;
+    margin : 5px 5px 5px 25%;
+    height: 100px;
+    color: #F27438;
+}

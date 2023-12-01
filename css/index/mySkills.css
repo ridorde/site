@@ -1,0 +1,30 @@
+#mySkills {
+    background-color: #1C2942;
+    height: 500px;
+
+    color: #5FC2BA;
+    text-align: justify;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mySkills > h2 {
+    
+    margin-right: 30%;
+    margin-left: 40%;
+    
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-size: 50px;
+    text-align: center;
+}
+
+#mySkills > img {   
+    width: 128px;
+    height: 128px;
+    margin-right: 10.8%;
+    margin-left: 14%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}

@@ -1,0 +1,18 @@
+#Visualisation {
+    margin: 0%;
+    background-image: url("../../res/Background/Soleil.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 215px;
+
+}
+
+#Visualisation > embed{
+    margin-top: 0%;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-bottom: 3%;
+
+    width: 54%;
+    height: 1200px;
+}
